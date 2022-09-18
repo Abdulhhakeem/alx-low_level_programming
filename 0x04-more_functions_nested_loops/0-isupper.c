@@ -1,22 +1,15 @@
-#include "main.h"
-
 /**
-* _isupper - Check if a letter is upper
-  * @x: The number to be checked
+ * _isupper - check if c is upper
+ *
+ * @c: input for alphabet
+ *
+ * Return: 1 if its uppercase, 0 if not
+*/
 
-  *
-
-* Return: 1 for upper letter or 0 for any elseclear
-aclear
-ot@15cda6016ac6:/alx-low_level_programming/0x04-more_functions_nested_lo
-
-
-
-
-clear
-ot@15cda6016ac6:/alx-low_level_programming/0x04-more_functions_nested_loop# 
-
-
-
-
-
+int _isupper(int c)
+{
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
+}
